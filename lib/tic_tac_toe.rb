@@ -1,3 +1,5 @@
+## REVIEW THIS LAB 
+
 class TicTacToe
   def initialize (board = nil)
     @board = board || Array.new (9, "")
@@ -32,7 +34,7 @@ class TicTacToe
   
   def valid_move
      if @board.index !== token X || token O 
-    elseif false == nil 
+    else false == nil 
   end
 end 
     
