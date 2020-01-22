@@ -18,7 +18,10 @@ class TicTacToe
   end
   
   def input_to_index
-    @board.gets chomp {|i| i.index[1-5]
+    @board.gets chomp {|i| i.index[1, 5]
+  end 
+  
+  def move 
   
       
   
