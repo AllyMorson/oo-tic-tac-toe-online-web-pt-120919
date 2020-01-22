@@ -5,8 +5,11 @@ class TicTacToe
   
   WIN_COMBINATIONS = []
   end
-  
- def display_board
+
+#prints the current board representation based on the @board instance variable 
+
+def display_board
+
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
     puts "-----------"
     puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
