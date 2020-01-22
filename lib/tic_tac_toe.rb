@@ -21,7 +21,14 @@ class TicTacToe
     @board.gets chomp {|i| i.index[1, 5]
   end 
   
-  def move 
+  def move (board = x )
+    @board.count {|t| token == x }
+  end 
+  
+  def position_taken 
+    if @board.index == token X || token O 
+      puts 
+    
   
       
   
