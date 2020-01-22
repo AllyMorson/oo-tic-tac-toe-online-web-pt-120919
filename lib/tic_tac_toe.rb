@@ -8,7 +8,7 @@ class TicTacToe
 
 #prints the current board representation based on the @board instance variable 
 
-def display_board
+  def display_board
 
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
     puts "-----------"
@@ -17,4 +17,8 @@ def display_board
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
   
+  def input_to_index
+    @board.gets chomp {|i| i.index[1-5]
+  
+      
   
