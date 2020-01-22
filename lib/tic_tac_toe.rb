@@ -27,7 +27,16 @@ class TicTacToe
   
   def position_taken 
     if @board.index == token X || token O 
-      puts 
+      puts  "the position is not taken"
+  end
+  
+  def valid_move
+     if @board.index !== token X || token O 
+    elseif false == nil 
+  end
+end 
+    
+    
     
   
       
